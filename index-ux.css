@@ -1,13 +1,59 @@
- .index-html-h1-month-value {
+/* 
+
+Styles for various elements in the index HTML page:
+
+.index-html-h1-month-value:
+    - Sets the font family for the month value heading.
+    
+.index-html-h1-monthly:
+    - Sets the font family and font weight for the monthly heading.
+    
+.index-html-h1-audits:
+    - Sets the font family for the audits heading.
+    
+.index-html-h1-country:
+    - Sets the font family, font weight, and font size for the country heading.
+    
+.index-html-z-1:
+    - Sets the z-index, width, height, and background color with opacity.
+    
+.index-html-h1:
+    - Sets the width, height, display properties, and alignment for the h1 element.
+    - Adjusts the width for screens with a max-width of 1024px.
+    
+.index-html-desktop:
+    - Sets the width, height, background image, and background size for the desktop view.
+    
+.index-html-cta:
+    - Sets the width, display properties, and alignment for the call-to-action section.
+    
+.end-btn:
+    - Sets the left margin for the end button.
+    
+.index-html-cta-desktop button:
+    - Sets the color, background, border properties, font weight, and font family for buttons in the desktop call-to-action section.
+    
+Media Queries:
+    - @media (min-width: 1024px):
+        - Hides the mobile view for screens with a minimum width of 1024px.
+        
+    - @media (max-width: 1023px):
+        - Hides the desktop view for screens with a maximum width of 1023px.
+        - Sets the width, height, background image, background size, and display properties for the mobile view.
+        - Sets the display properties, alignment, and margins for the mobile call-to-action section.
+        - Sets the width, height, font size, color, background, and border properties for buttons in the mobile call-to-action section.
+*/
+
+.index-html-h1-month-value {
     font-family: 'Brushstrike', 'Brush King';
  }
 
- .index-html-h1-monthly {
+.index-html-h1-monthly {
     font-family: sans-serif;
     font-weight: Bold;
  }
 
- .index-html-h1-audits {
+.index-html-h1-audits {
     font-family: 'Marker Felt', 'Streetbrush';
  }
 

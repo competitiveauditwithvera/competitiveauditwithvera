@@ -1,3 +1,18 @@
+
+
+/**
+ * Get the current month and insert it into the target element.
+ * 
+ * @constant {string} currentMonth - The current month in long format.
+ * 
+ * @param {Element} targetElement - The target element where the current month will be inserted.
+ * 
+ * @param {Element} downloadButton - The button element that triggers the download of the Deel Payroll Template.
+ * @param {Element} launchButton - The button element that opens the Code4rena audits page in a new tab.
+ * 
+ * @event click - Triggers the download of the Deel Payroll Template when the download button is clicked.
+ * @event click - Opens the Code4rena audits page in a new tab when the launch button is clicked.
+ */
 // Get the current month
 const currentMonth = new Date().toLocaleString('default', { month: 'long' });
 
